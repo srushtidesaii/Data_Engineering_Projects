@@ -1,0 +1,1623 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="504" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>10000</FieldLen>
+            <SingleThreadRead>True</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>True</QuoteRecordBreak>
+            <CodePage>65001</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Restaurant Name" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Type" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Date" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Score" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Number" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Name" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Direction" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Type" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Unit" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Street Address" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Zip Code" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 1" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 1" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 1" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 1" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 2" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 2" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 2" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 2" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 3" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 3" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 3" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 3" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 4" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 4" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 4" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 4" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 5" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 5" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 5" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 5" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 6" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 6" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 6" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 6" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 7" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 7" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 7" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 7" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 8" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 8" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 8" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 8" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 9" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 9" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 9" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 9" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 10" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 10" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 10" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 10" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 11" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 11" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 11" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 11" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 12" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 12" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 12" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 12" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 13" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 13" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 13" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 13" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 14" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 14" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 14" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 14" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 15" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 15" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 15" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 15" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 16" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 16" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 16" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 16" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 17" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 17" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 17" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 17" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 18" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 18" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 18" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 18" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 19" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 19" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 19" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 19" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 20" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 20" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 20" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation  Memo - 20" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 21" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 21" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 21" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 21" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 22" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 22" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 22" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 22" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 23" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 23" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 23" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 23" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 24" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 24" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 24" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 24" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 25" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Points - 25" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Detail - 25" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 25" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Month" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Inspection Year" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Lat Long Location" size="10000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="162" y="708" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\18575\AppData\Local\Temp\Engine_21796_b9f699c63da24141a78df51a475f27e8_\Engine_21796_84347b2c1c8eff4baffc31c3992028a1~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="258" y="504" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Restaurant Name" selected="True" />
+            <Field field="Inspection Type" selected="True" />
+            <Field field="Inspection Date" selected="True" />
+            <Field field="Inspection Score" selected="True" />
+            <Field field="Street Number" selected="True" />
+            <Field field="Street Name" selected="True" />
+            <Field field="Street Direction" selected="True" />
+            <Field field="Street Type" selected="True" />
+            <Field field="Street Unit" selected="True" />
+            <Field field="Street Address" selected="True" />
+            <Field field="Zip Code" selected="True" />
+            <Field field="Violation Description - 1" selected="True" />
+            <Field field="Violation Points - 1" selected="True" />
+            <Field field="Violation Detail - 1" selected="True" />
+            <Field field="Violation Memo - 1" selected="True" />
+            <Field field="Violation Description - 2" selected="True" />
+            <Field field="Violation Points - 2" selected="True" />
+            <Field field="Violation Detail - 2" selected="True" />
+            <Field field="Violation Memo - 2" selected="True" />
+            <Field field="Violation Description - 3" selected="True" />
+            <Field field="Violation Points - 3" selected="True" />
+            <Field field="Violation Detail - 3" selected="True" />
+            <Field field="Violation Memo - 3" selected="True" />
+            <Field field="Violation Description - 4" selected="True" />
+            <Field field="Violation Points - 4" selected="True" />
+            <Field field="Violation Detail - 4" selected="True" />
+            <Field field="Violation Memo - 4" selected="True" />
+            <Field field="Violation Description - 5" selected="True" />
+            <Field field="Violation Points - 5" selected="True" />
+            <Field field="Violation Detail - 5" selected="True" />
+            <Field field="Violation Memo - 5" selected="True" />
+            <Field field="Violation Description - 6" selected="True" />
+            <Field field="Violation Points - 6" selected="True" />
+            <Field field="Violation Detail - 6" selected="True" />
+            <Field field="Violation Memo - 6" selected="True" />
+            <Field field="Violation Description - 7" selected="True" />
+            <Field field="Violation Points - 7" selected="True" />
+            <Field field="Violation Detail - 7" selected="True" />
+            <Field field="Violation Memo - 7" selected="True" />
+            <Field field="Violation Description - 8" selected="True" />
+            <Field field="Violation Points - 8" selected="True" />
+            <Field field="Violation Detail - 8" selected="True" />
+            <Field field="Violation Memo - 8" selected="True" />
+            <Field field="Violation Description - 9" selected="True" />
+            <Field field="Violation Points - 9" selected="True" />
+            <Field field="Violation Detail - 9" selected="True" />
+            <Field field="Violation Memo - 9" selected="True" />
+            <Field field="Violation Description - 10" selected="True" />
+            <Field field="Violation Points - 10" selected="True" />
+            <Field field="Violation Detail - 10" selected="True" />
+            <Field field="Violation Memo - 10" selected="True" />
+            <Field field="Violation Description - 11" selected="True" />
+            <Field field="Violation Points - 11" selected="True" />
+            <Field field="Violation Detail - 11" selected="True" />
+            <Field field="Violation Memo - 11" selected="True" />
+            <Field field="Violation Description - 12" selected="True" />
+            <Field field="Violation Points - 12" selected="True" />
+            <Field field="Violation Detail - 12" selected="True" />
+            <Field field="Violation Memo - 12" selected="True" />
+            <Field field="Violation Description - 13" selected="True" />
+            <Field field="Violation Points - 13" selected="True" />
+            <Field field="Violation Detail - 13" selected="True" />
+            <Field field="Violation Memo - 13" selected="True" />
+            <Field field="Violation Description - 14" selected="True" />
+            <Field field="Violation Points - 14" selected="True" />
+            <Field field="Violation Detail - 14" selected="True" />
+            <Field field="Violation Memo - 14" selected="True" />
+            <Field field="Violation Description - 15" selected="True" />
+            <Field field="Violation Points - 15" selected="True" />
+            <Field field="Violation Detail - 15" selected="True" />
+            <Field field="Violation Memo - 15" selected="True" />
+            <Field field="Violation Description - 16" selected="True" />
+            <Field field="Violation Points - 16" selected="True" />
+            <Field field="Violation Detail - 16" selected="True" />
+            <Field field="Violation Memo - 16" selected="True" />
+            <Field field="Violation Description - 17" selected="True" />
+            <Field field="Violation Points - 17" selected="True" />
+            <Field field="Violation Detail - 17" selected="True" />
+            <Field field="Violation Memo - 17" selected="True" />
+            <Field field="Violation Description - 18" selected="True" />
+            <Field field="Violation Points - 18" selected="True" />
+            <Field field="Violation Detail - 18" selected="True" />
+            <Field field="Violation Memo - 18" selected="True" />
+            <Field field="Violation Description - 19" selected="True" />
+            <Field field="Violation Points - 19" selected="True" />
+            <Field field="Violation Detail - 19" selected="True" />
+            <Field field="Violation Memo - 19" selected="True" />
+            <Field field="Violation Description - 20" selected="True" />
+            <Field field="Violation Points - 20" selected="True" />
+            <Field field="Violation Detail - 20" selected="True" />
+            <Field field="Violation  Memo - 20" selected="True" />
+            <Field field="Violation Description - 21" selected="True" />
+            <Field field="Violation Points - 21" selected="True" />
+            <Field field="Violation Detail - 21" selected="True" />
+            <Field field="Violation Memo - 21" selected="True" />
+            <Field field="Violation Description - 22" selected="True" />
+            <Field field="Violation Points - 22" selected="True" />
+            <Field field="Violation Detail - 22" selected="True" />
+            <Field field="Violation Memo - 22" selected="True" />
+            <Field field="Violation Description - 23" selected="True" />
+            <Field field="Violation Points - 23" selected="True" />
+            <Field field="Violation Detail - 23" selected="True" />
+            <Field field="Violation Memo - 23" selected="True" />
+            <Field field="Violation Description - 24" selected="True" />
+            <Field field="Violation Points - 24" selected="True" />
+            <Field field="Violation Detail - 24" selected="True" />
+            <Field field="Violation Memo - 24" selected="True" />
+            <Field field="Violation Description - 25" selected="True" />
+            <Field field="Violation Points - 25" selected="True" />
+            <Field field="Violation Detail - 25" selected="True" />
+            <Field field="Violation Memo - 25" selected="True" />
+            <Field field="Inspection Month" selected="True" />
+            <Field field="Inspection Year" selected="True" />
+            <Field field="Lat Long Location" selected="True" />
+            <Field field="*Unknown" selected="False" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Restaurant Name" size="65" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Inspection Type" size="9" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+            <Field name="Inspection Date" size="10" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+            <Field name="Inspection Score" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Int16" />
+            <Field name="Street Number" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Int32" />
+            <Field name="Street Name" size="25" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Street Direction" size="1" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+            <Field name="Street Type" size="4" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+            <Field name="Street Unit" size="5" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+            <Field name="Street Address" size="36" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Zip Code" size="10" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+            <Field name="Violation Description - 1" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 1" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 1" size="910" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Memo - 1" size="2326" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 2" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 2" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 2" size="910" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 2" size="2569" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 3" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 3" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 3" size="1043" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 3" size="2397" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 4" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 4" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 4" size="1018" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 4" size="3214" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 5" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 5" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 5" size="910" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 5" size="1823" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 6" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 6" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 6" size="1018" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 6" size="1665" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 7" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 7" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 7" size="910" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 7" size="1588" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 8" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 8" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 8" size="1039" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 8" size="1287" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 9" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 9" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 9" size="910" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 9" size="1584" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 10" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 10" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 10" size="910" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 10" size="2087" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 11" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 11" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 11" size="910" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 11" size="1325" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 12" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 12" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 12" size="994" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 12" size="407" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 13" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 13" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 13" size="888" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 13" size="881" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 14" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 14" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 14" size="888" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 14" size="818" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 15" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 15" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 15" size="888" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 15" size="818" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 16" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 16" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 16" size="888" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 16" size="397" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Description - 17" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 17" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 17" size="829" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 17" size="212" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Description - 18" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 18" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 18" size="829" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 18" size="230" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+            <Field name="Violation Description - 19" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 19" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 19" size="815" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 19" size="245" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Description - 20" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 20" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 20" size="815" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation  Memo - 20" size="247" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Description - 21" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 21" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 21" size="815" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 21" size="211" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Description - 22" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 22" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 22" size="815" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 22" size="374" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Description - 23" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 23" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 23" size="492" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 23" size="103" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Description - 24" size="59" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 24" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 24" size="434" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 24" size="186" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Description - 25" size="50" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Points - 25" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+            <Field name="Violation Detail - 25" size="482" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Violation Memo - 25" size="171" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+            <Field name="Inspection Month" size="8" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+            <Field name="Inspection Year" size="6" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+            <Field name="Lat Long Location" size="59" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="390" y="504" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Restaurant Name" selected="True" />
+            <SelectField field="Inspection Type" selected="True" />
+            <SelectField field="Inspection Date" selected="True" />
+            <SelectField field="Inspection Score" selected="True" />
+            <SelectField field="Street Number" selected="True" />
+            <SelectField field="Street Name" selected="True" />
+            <SelectField field="Street Direction" selected="True" />
+            <SelectField field="Street Type" selected="True" />
+            <SelectField field="Street Unit" selected="True" />
+            <SelectField field="Street Address" selected="True" />
+            <SelectField field="Zip Code" selected="True" />
+            <SelectField field="Violation Description - 1" selected="True" />
+            <SelectField field="Violation Points - 1" selected="True" />
+            <SelectField field="Violation Detail - 1" selected="True" />
+            <SelectField field="Violation Memo - 1" selected="True" size="10000" />
+            <SelectField field="Violation Description - 2" selected="True" />
+            <SelectField field="Violation Points - 2" selected="True" />
+            <SelectField field="Violation Detail - 2" selected="True" />
+            <SelectField field="Violation Memo - 2" selected="True" size="10000" />
+            <SelectField field="Violation Description - 3" selected="True" />
+            <SelectField field="Violation Points - 3" selected="True" />
+            <SelectField field="Violation Detail - 3" selected="True" />
+            <SelectField field="Violation Memo - 3" selected="True" size="10000" />
+            <SelectField field="Violation Description - 4" selected="True" />
+            <SelectField field="Violation Points - 4" selected="True" />
+            <SelectField field="Violation Detail - 4" selected="True" />
+            <SelectField field="Violation Memo - 4" selected="True" />
+            <SelectField field="Violation Description - 5" selected="True" />
+            <SelectField field="Violation Points - 5" selected="True" />
+            <SelectField field="Violation Detail - 5" selected="True" />
+            <SelectField field="Violation Memo - 5" selected="True" />
+            <SelectField field="Violation Description - 6" selected="True" />
+            <SelectField field="Violation Points - 6" selected="True" />
+            <SelectField field="Violation Detail - 6" selected="True" />
+            <SelectField field="Violation Memo - 6" selected="True" />
+            <SelectField field="Violation Description - 7" selected="True" />
+            <SelectField field="Violation Points - 7" selected="True" />
+            <SelectField field="Violation Detail - 7" selected="True" />
+            <SelectField field="Violation Memo - 7" selected="True" />
+            <SelectField field="Violation Description - 8" selected="True" />
+            <SelectField field="Violation Points - 8" selected="True" />
+            <SelectField field="Violation Detail - 8" selected="True" />
+            <SelectField field="Violation Memo - 8" selected="True" />
+            <SelectField field="Violation Description - 9" selected="True" />
+            <SelectField field="Violation Points - 9" selected="True" />
+            <SelectField field="Violation Detail - 9" selected="True" />
+            <SelectField field="Violation Memo - 9" selected="True" />
+            <SelectField field="Violation Description - 10" selected="True" />
+            <SelectField field="Violation Points - 10" selected="True" />
+            <SelectField field="Violation Detail - 10" selected="True" />
+            <SelectField field="Violation Memo - 10" selected="True" size="10000" />
+            <SelectField field="Violation Description - 11" selected="True" />
+            <SelectField field="Violation Points - 11" selected="True" />
+            <SelectField field="Violation Detail - 11" selected="True" />
+            <SelectField field="Violation Memo - 11" selected="True" />
+            <SelectField field="Violation Description - 12" selected="True" />
+            <SelectField field="Violation Points - 12" selected="True" />
+            <SelectField field="Violation Detail - 12" selected="True" />
+            <SelectField field="Violation Memo - 12" selected="True" />
+            <SelectField field="Violation Description - 13" selected="True" />
+            <SelectField field="Violation Points - 13" selected="True" />
+            <SelectField field="Violation Detail - 13" selected="True" />
+            <SelectField field="Violation Memo - 13" selected="True" />
+            <SelectField field="Violation Description - 14" selected="True" />
+            <SelectField field="Violation Points - 14" selected="True" />
+            <SelectField field="Violation Detail - 14" selected="True" />
+            <SelectField field="Violation Memo - 14" selected="True" />
+            <SelectField field="Violation Description - 15" selected="True" />
+            <SelectField field="Violation Points - 15" selected="True" />
+            <SelectField field="Violation Detail - 15" selected="True" />
+            <SelectField field="Violation Memo - 15" selected="True" />
+            <SelectField field="Violation Description - 16" selected="True" />
+            <SelectField field="Violation Points - 16" selected="True" />
+            <SelectField field="Violation Detail - 16" selected="True" />
+            <SelectField field="Violation Memo - 16" selected="True" />
+            <SelectField field="Violation Description - 17" selected="True" />
+            <SelectField field="Violation Points - 17" selected="True" />
+            <SelectField field="Violation Detail - 17" selected="True" />
+            <SelectField field="Violation Memo - 17" selected="True" />
+            <SelectField field="Violation Description - 18" selected="True" />
+            <SelectField field="Violation Points - 18" selected="True" />
+            <SelectField field="Violation Detail - 18" selected="True" />
+            <SelectField field="Violation Memo - 18" selected="True" />
+            <SelectField field="Violation Description - 19" selected="True" />
+            <SelectField field="Violation Points - 19" selected="True" />
+            <SelectField field="Violation Detail - 19" selected="True" />
+            <SelectField field="Violation Memo - 19" selected="True" />
+            <SelectField field="Violation Description - 20" selected="True" />
+            <SelectField field="Violation Points - 20" selected="True" />
+            <SelectField field="Violation Detail - 20" selected="True" />
+            <SelectField field="Violation  Memo - 20" selected="True" />
+            <SelectField field="Violation Description - 21" selected="True" />
+            <SelectField field="Violation Points - 21" selected="True" />
+            <SelectField field="Violation Detail - 21" selected="True" />
+            <SelectField field="Violation Memo - 21" selected="True" />
+            <SelectField field="Violation Description - 22" selected="True" />
+            <SelectField field="Violation Points - 22" selected="True" />
+            <SelectField field="Violation Detail - 22" selected="True" />
+            <SelectField field="Violation Memo - 22" selected="True" />
+            <SelectField field="Violation Description - 23" selected="True" />
+            <SelectField field="Violation Points - 23" selected="True" />
+            <SelectField field="Violation Detail - 23" selected="True" />
+            <SelectField field="Violation Memo - 23" selected="True" />
+            <SelectField field="Violation Description - 24" selected="True" />
+            <SelectField field="Violation Points - 24" selected="True" />
+            <SelectField field="Violation Detail - 24" selected="True" />
+            <SelectField field="Violation Memo - 24" selected="True" />
+            <SelectField field="Violation Description - 25" selected="True" />
+            <SelectField field="Violation Points - 25" selected="True" />
+            <SelectField field="Violation Detail - 25" selected="True" />
+            <SelectField field="Violation Memo - 25" selected="True" />
+            <SelectField field="Inspection Month" selected="True" />
+            <SelectField field="Inspection Year" selected="True" rename="Inspection_Financial_Year" />
+            <SelectField field="Lat Long Location" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="486" y="504" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Inspection Date</InputFieldName>
+          <Language>English</Language>
+          <Format>MM/dd/yyyy</Format>
+          <OutputFieldName>Inspection_Date</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Inspection Date From:
+MM/dd/yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="666" y="504" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Lat Long Location</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Location</RootName>
+          <Delimeters value="(" />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="942" y="504" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Location2</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Lat Long</RootName>
+          <Delimeters value="," />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1422" y="504" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Violation Detail - 1" selected="True" size="2000" />
+            <SelectField field="Lat Long Location" selected="False" />
+            <SelectField field="Location1" selected="False" rename="Location" />
+            <SelectField field="Location2" selected="False" />
+            <SelectField field="Lat Long1" selected="True" rename="Latitude" type="Double" size="8" />
+            <SelectField field="Lat Long2" selected="True" rename="Longitude" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings>
+        <Position x="582" y="504" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Lat Long Location"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">True</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">True</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings>
+        <Position x="1014" y="504" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Lat Long2"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="786" y="504" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Location2</Field>
+          <RegExExpression value="[)]" />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Location2</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>Restaurant Name_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings>
+        <Position x="1206" y="504" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Lat Long1"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">True</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="1326" y="504" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Lat Long1</Field>
+          <RegExExpression value="(\#310)" />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Lat Long1</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="RegExOut1" type="V_String" size="59" />
+          </ParseComplex>
+          <Match>
+            <Field>Restaurant Name_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1530" y="504" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="10" type="Date" />
+            <FormulaField expression="[Engine.WorkflowFileName]" field="DI_WorkflowFileName" size="256" type="V_WString" />
+            <FormulaField expression="[Engine.WorkflowDirectory]" field="DI_WorkflowDirectory" size="256" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DI_CreateDate = DateTimeNow()
+DI_WorkflowFileName = [Engine.WorkflowFileName]
+DI...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1638" y="504" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Restaurant Name" selected="True" />
+            <SelectField field="Inspection Type" selected="True" />
+            <SelectField field="Inspection Date" selected="True" />
+            <SelectField field="Inspection Score" selected="True" />
+            <SelectField field="Street Number" selected="True" />
+            <SelectField field="Street Name" selected="True" />
+            <SelectField field="Street Direction" selected="True" />
+            <SelectField field="Street Type" selected="True" />
+            <SelectField field="Street Unit" selected="True" />
+            <SelectField field="Street Address" selected="True" />
+            <SelectField field="Zip Code" selected="True" />
+            <SelectField field="Violation Description - 1" selected="True" />
+            <SelectField field="Violation Points - 1" selected="True" />
+            <SelectField field="Violation Detail - 1" selected="True" />
+            <SelectField field="Violation Memo - 1" selected="True" />
+            <SelectField field="Violation Description - 2" selected="True" />
+            <SelectField field="Violation Points - 2" selected="True" />
+            <SelectField field="Violation Detail - 2" selected="True" />
+            <SelectField field="Violation Memo - 2" selected="True" />
+            <SelectField field="Violation Description - 3" selected="True" />
+            <SelectField field="Violation Points - 3" selected="True" />
+            <SelectField field="Violation Detail - 3" selected="True" />
+            <SelectField field="Violation Memo - 3" selected="True" />
+            <SelectField field="Violation Description - 4" selected="True" />
+            <SelectField field="Violation Points - 4" selected="True" />
+            <SelectField field="Violation Detail - 4" selected="True" />
+            <SelectField field="Violation Memo - 4" selected="True" />
+            <SelectField field="Violation Description - 5" selected="True" />
+            <SelectField field="Violation Points - 5" selected="True" />
+            <SelectField field="Violation Detail - 5" selected="True" />
+            <SelectField field="Violation Memo - 5" selected="True" />
+            <SelectField field="Violation Description - 6" selected="True" />
+            <SelectField field="Violation Points - 6" selected="True" />
+            <SelectField field="Violation Detail - 6" selected="True" />
+            <SelectField field="Violation Memo - 6" selected="True" />
+            <SelectField field="Violation Description - 7" selected="True" />
+            <SelectField field="Violation Points - 7" selected="True" />
+            <SelectField field="Violation Detail - 7" selected="True" />
+            <SelectField field="Violation Memo - 7" selected="True" />
+            <SelectField field="Violation Description - 8" selected="True" />
+            <SelectField field="Violation Points - 8" selected="True" />
+            <SelectField field="Violation Detail - 8" selected="True" />
+            <SelectField field="Violation Memo - 8" selected="True" />
+            <SelectField field="Violation Description - 9" selected="True" />
+            <SelectField field="Violation Points - 9" selected="True" />
+            <SelectField field="Violation Detail - 9" selected="True" />
+            <SelectField field="Violation Memo - 9" selected="True" />
+            <SelectField field="Violation Description - 10" selected="True" />
+            <SelectField field="Violation Points - 10" selected="True" />
+            <SelectField field="Violation Detail - 10" selected="True" />
+            <SelectField field="Violation Memo - 10" selected="True" />
+            <SelectField field="Violation Description - 11" selected="True" />
+            <SelectField field="Violation Points - 11" selected="True" />
+            <SelectField field="Violation Detail - 11" selected="True" />
+            <SelectField field="Violation Memo - 11" selected="True" />
+            <SelectField field="Violation Description - 12" selected="True" />
+            <SelectField field="Violation Points - 12" selected="True" />
+            <SelectField field="Violation Detail - 12" selected="True" />
+            <SelectField field="Violation Memo - 12" selected="True" />
+            <SelectField field="Violation Description - 13" selected="True" />
+            <SelectField field="Violation Points - 13" selected="True" />
+            <SelectField field="Violation Detail - 13" selected="True" />
+            <SelectField field="Violation Memo - 13" selected="True" />
+            <SelectField field="Violation Description - 14" selected="True" />
+            <SelectField field="Violation Points - 14" selected="True" />
+            <SelectField field="Violation Detail - 14" selected="True" />
+            <SelectField field="Violation Memo - 14" selected="True" />
+            <SelectField field="Violation Description - 15" selected="True" />
+            <SelectField field="Violation Points - 15" selected="True" />
+            <SelectField field="Violation Detail - 15" selected="True" />
+            <SelectField field="Violation Memo - 15" selected="True" />
+            <SelectField field="Violation Description - 16" selected="True" />
+            <SelectField field="Violation Points - 16" selected="True" />
+            <SelectField field="Violation Detail - 16" selected="True" />
+            <SelectField field="Violation Memo - 16" selected="True" />
+            <SelectField field="Violation Description - 17" selected="True" />
+            <SelectField field="Violation Points - 17" selected="True" />
+            <SelectField field="Violation Detail - 17" selected="True" />
+            <SelectField field="Violation Memo - 17" selected="True" />
+            <SelectField field="Violation Description - 18" selected="True" />
+            <SelectField field="Violation Points - 18" selected="True" />
+            <SelectField field="Violation Detail - 18" selected="True" />
+            <SelectField field="Violation Memo - 18" selected="True" />
+            <SelectField field="Violation Description - 19" selected="True" />
+            <SelectField field="Violation Points - 19" selected="True" />
+            <SelectField field="Violation Detail - 19" selected="True" />
+            <SelectField field="Violation Memo - 19" selected="True" />
+            <SelectField field="Violation Description - 20" selected="True" />
+            <SelectField field="Violation Points - 20" selected="True" />
+            <SelectField field="Violation Detail - 20" selected="True" />
+            <SelectField field="Violation  Memo - 20" selected="True" />
+            <SelectField field="Violation Description - 21" selected="True" />
+            <SelectField field="Violation Points - 21" selected="True" />
+            <SelectField field="Violation Detail - 21" selected="True" />
+            <SelectField field="Violation Memo - 21" selected="True" />
+            <SelectField field="Violation Description - 22" selected="True" />
+            <SelectField field="Violation Points - 22" selected="True" />
+            <SelectField field="Violation Detail - 22" selected="True" />
+            <SelectField field="Violation Memo - 22" selected="True" />
+            <SelectField field="Violation Description - 23" selected="True" />
+            <SelectField field="Violation Points - 23" selected="True" />
+            <SelectField field="Violation Detail - 23" selected="True" />
+            <SelectField field="Violation Memo - 23" selected="True" />
+            <SelectField field="Violation Description - 24" selected="True" />
+            <SelectField field="Violation Points - 24" selected="True" />
+            <SelectField field="Violation Detail - 24" selected="True" />
+            <SelectField field="Violation Memo - 24" selected="True" />
+            <SelectField field="Violation Description - 25" selected="True" />
+            <SelectField field="Violation Points - 25" selected="True" />
+            <SelectField field="Violation Detail - 25" selected="True" />
+            <SelectField field="Violation Memo - 25" selected="True" />
+            <SelectField field="Inspection Month" selected="True" />
+            <SelectField field="Inspection_Financial_Year" selected="True" />
+            <SelectField field="Inspection_Date" selected="True" />
+            <SelectField field="Latitude" selected="True" />
+            <SelectField field="Longitude" selected="True" />
+            <SelectField field="DI_CreateDate" selected="True" />
+            <SelectField field="DI_WorkflowDirectory" selected="True" />
+            <SelectField field="DI_WorkflowFileName" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1782" y="504" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:stage_tables_output|||stg_dallas_food_inspections</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Delete</OutputOption>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:stage_tables_output
+Query=stg_dallas_food_inspections</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="1110" y="504" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Lat Long1</Field>
+          <RegExExpression value="[(]" />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Lat Long1</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>Restaurant Name_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="221" y="53" width="493" height="403" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Data Profiling</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="47">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="246" y="223" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="Restaurant Name" selected="True" />
+                <Field field="Inspection Type" selected="True" />
+                <Field field="Inspection Date" selected="True" />
+                <Field field="Inspection Score" selected="True" />
+                <Field field="Street Number" selected="True" />
+                <Field field="Street Name" selected="True" />
+                <Field field="Street Direction" selected="True" />
+                <Field field="Street Type" selected="True" />
+                <Field field="Street Unit" selected="True" />
+                <Field field="Street Address" selected="True" />
+                <Field field="Zip Code" selected="True" />
+                <Field field="Violation Description - 1" selected="True" />
+                <Field field="Violation Points - 1" selected="True" />
+                <Field field="Violation Detail - 1" selected="True" />
+                <Field field="Violation Memo - 1" selected="True" />
+                <Field field="Violation Description - 2" selected="True" />
+                <Field field="Violation Points - 2" selected="True" />
+                <Field field="Violation Detail - 2" selected="True" />
+                <Field field="Violation Memo - 2" selected="True" />
+                <Field field="Violation Description - 3" selected="True" />
+                <Field field="Violation Points - 3" selected="True" />
+                <Field field="Violation Detail - 3" selected="True" />
+                <Field field="Violation Memo - 3" selected="True" />
+                <Field field="Violation Description - 4" selected="True" />
+                <Field field="Violation Points - 4" selected="True" />
+                <Field field="Violation Detail - 4" selected="True" />
+                <Field field="Violation Memo - 4" selected="True" />
+                <Field field="Violation Description - 5" selected="True" />
+                <Field field="Violation Points - 5" selected="True" />
+                <Field field="Violation Detail - 5" selected="True" />
+                <Field field="Violation Memo - 5" selected="True" />
+                <Field field="Violation Description - 6" selected="True" />
+                <Field field="Violation Points - 6" selected="True" />
+                <Field field="Violation Detail - 6" selected="True" />
+                <Field field="Violation Memo - 6" selected="True" />
+                <Field field="Violation Description - 7" selected="True" />
+                <Field field="Violation Points - 7" selected="True" />
+                <Field field="Violation Detail - 7" selected="True" />
+                <Field field="Violation Memo - 7" selected="True" />
+                <Field field="Violation Description - 8" selected="True" />
+                <Field field="Violation Points - 8" selected="True" />
+                <Field field="Violation Detail - 8" selected="True" />
+                <Field field="Violation Memo - 8" selected="True" />
+                <Field field="Violation Description - 9" selected="True" />
+                <Field field="Violation Points - 9" selected="True" />
+                <Field field="Violation Detail - 9" selected="True" />
+                <Field field="Violation Memo - 9" selected="True" />
+                <Field field="Violation Description - 10" selected="True" />
+                <Field field="Violation Points - 10" selected="True" />
+                <Field field="Violation Detail - 10" selected="True" />
+                <Field field="Violation Memo - 10" selected="True" />
+                <Field field="Violation Description - 11" selected="True" />
+                <Field field="Violation Points - 11" selected="True" />
+                <Field field="Violation Detail - 11" selected="True" />
+                <Field field="Violation Memo - 11" selected="True" />
+                <Field field="Violation Description - 12" selected="True" />
+                <Field field="Violation Points - 12" selected="True" />
+                <Field field="Violation Detail - 12" selected="True" />
+                <Field field="Violation Memo - 12" selected="True" />
+                <Field field="Violation Description - 13" selected="True" />
+                <Field field="Violation Points - 13" selected="True" />
+                <Field field="Violation Detail - 13" selected="True" />
+                <Field field="Violation Memo - 13" selected="True" />
+                <Field field="Violation Description - 14" selected="True" />
+                <Field field="Violation Points - 14" selected="True" />
+                <Field field="Violation Detail - 14" selected="True" />
+                <Field field="Violation Memo - 14" selected="True" />
+                <Field field="Violation Description - 15" selected="True" />
+                <Field field="Violation Points - 15" selected="True" />
+                <Field field="Violation Detail - 15" selected="True" />
+                <Field field="Violation Memo - 15" selected="True" />
+                <Field field="Violation Description - 16" selected="True" />
+                <Field field="Violation Points - 16" selected="True" />
+                <Field field="Violation Detail - 16" selected="True" />
+                <Field field="Violation Memo - 16" selected="True" />
+                <Field field="Violation Description - 17" selected="True" />
+                <Field field="Violation Points - 17" selected="True" />
+                <Field field="Violation Detail - 17" selected="True" />
+                <Field field="Violation Memo - 17" selected="True" />
+                <Field field="Violation Description - 18" selected="True" />
+                <Field field="Violation Points - 18" selected="True" />
+                <Field field="Violation Detail - 18" selected="True" />
+                <Field field="Violation Memo - 18" selected="True" />
+                <Field field="Violation Description - 19" selected="True" />
+                <Field field="Violation Points - 19" selected="True" />
+                <Field field="Violation Detail - 19" selected="True" />
+                <Field field="Violation Memo - 19" selected="True" />
+                <Field field="Violation Description - 20" selected="True" />
+                <Field field="Violation Points - 20" selected="True" />
+                <Field field="Violation Detail - 20" selected="True" />
+                <Field field="Violation  Memo - 20" selected="True" />
+                <Field field="Violation Description - 21" selected="True" />
+                <Field field="Violation Points - 21" selected="True" />
+                <Field field="Violation Detail - 21" selected="True" />
+                <Field field="Violation Memo - 21" selected="True" />
+                <Field field="Violation Description - 22" selected="True" />
+                <Field field="Violation Points - 22" selected="True" />
+                <Field field="Violation Detail - 22" selected="True" />
+                <Field field="Violation Memo - 22" selected="True" />
+                <Field field="Violation Description - 23" selected="True" />
+                <Field field="Violation Points - 23" selected="True" />
+                <Field field="Violation Detail - 23" selected="True" />
+                <Field field="Violation Memo - 23" selected="True" />
+                <Field field="Violation Description - 24" selected="True" />
+                <Field field="Violation Points - 24" selected="True" />
+                <Field field="Violation Detail - 24" selected="True" />
+                <Field field="Violation Memo - 24" selected="True" />
+                <Field field="Violation Description - 25" selected="True" />
+                <Field field="Violation Points - 25" selected="True" />
+                <Field field="Violation Detail - 25" selected="True" />
+                <Field field="Violation Memo - 25" selected="True" />
+                <Field field="Inspection Month" selected="True" />
+                <Field field="Inspection Year" selected="True" />
+                <Field field="Lat Long Location" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Restaurant Name" size="65" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Inspection Type" size="9" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+                <Field name="Inspection Date" size="10" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+                <Field name="Inspection Score" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Int16" />
+                <Field name="Street Number" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Int32" />
+                <Field name="Street Name" size="25" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Street Direction" size="1" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+                <Field name="Street Type" size="4" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+                <Field name="Street Unit" size="5" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+                <Field name="Street Address" size="36" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Zip Code" size="10" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+                <Field name="Violation Description - 1" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 1" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 1" size="910" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Memo - 1" size="2000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 2" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 2" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 2" size="910" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 2" size="2000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 3" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 3" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 3" size="1043" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 3" size="2000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 4" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 4" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 4" size="1018" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 4" size="2000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 5" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 5" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 5" size="910" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 5" size="1823" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 6" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 6" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 6" size="1018" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 6" size="1665" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 7" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 7" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 7" size="910" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 7" size="1588" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 8" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 8" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 8" size="1039" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 8" size="1287" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 9" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 9" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 9" size="910" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 9" size="1584" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 10" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 10" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 10" size="910" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 10" size="2000" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 11" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 11" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 11" size="910" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 11" size="1325" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 12" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 12" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 12" size="994" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 12" size="407" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 13" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 13" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 13" size="888" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 13" size="881" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 14" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 14" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 14" size="888" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 14" size="818" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 15" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 15" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 15" size="888" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 15" size="818" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 16" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 16" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 16" size="888" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 16" size="397" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Description - 17" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 17" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 17" size="829" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 17" size="212" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Description - 18" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 18" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 18" size="829" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 18" size="230" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 19" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 19" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 19" size="815" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 19" size="245" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Description - 20" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 20" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 20" size="815" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation  Memo - 20" size="247" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Description - 21" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 21" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 21" size="815" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 21" size="211" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Description - 22" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 22" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 22" size="815" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 22" size="374" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Description - 23" size="100" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 23" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 23" size="492" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 23" size="103" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Description - 24" size="59" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 24" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 24" size="434" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 24" size="186" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Description - 25" size="50" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Points - 25" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="Byte" />
+                <Field name="Violation Detail - 25" size="482" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Violation Memo - 25" size="171" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+                <Field name="Inspection Month" size="8" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+                <Field name="Inspection Year" size="6" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="String" />
+                <Field name="Lat Long Location" size="59" source="File: C:\Users\18575\Downloads\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="48">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="366" y="223" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="49">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+            <Position x="474" y="151" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Limit_UniqueCount>10000</Limit_UniqueCount>
+              <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+              <IsMetric value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+        </Node>
+        <Node ToolID="50">
+          <GuiSettings>
+            <Position x="474" y="295" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Select Fields">Restaurant Name=True,Inspection Type=True,Inspection Date=True,Inspection Score=True,Street Number=True,Street Name=True,Street Direction=True,Street Type=True,Street Unit=True,Street Address=True,Zip Code=True,Violation Description - 1=True,Violation Points - 1=True,Violation Detail - 1=True,Violation Memo - 1=True,Violation Description - 2=True,Violation Points - 2=True,Violation Detail - 2=True,Violation Memo - 2=True,Violation Description - 3=True,Violation Points - 3=True,Violation Detail - 3=True,Violation Memo - 3=True,Violation Description - 4=True,Violation Points - 4=True,Violation Detail - 4=True,Violation Memo - 4=True,Violation Description - 5=True,Violation Points - 5=True,Violation Detail - 5=True,Violation Memo - 5=True,Violation Description - 6=True,Violation Points - 6=True,Violation Detail - 6=True,Violation Memo - 6=True,Violation Description - 7=True,Violation Points - 7=True,Violation Detail - 7=True,Violation Memo - 7=True,Violation Description - 8=True,Violation Points - 8=True,Violation Detail - 8=True,Violation Memo - 8=True,Violation Description - 9=True,Violation Points - 9=True,Violation Detail - 9=True,Violation Memo - 9=True,Violation Description - 10=True,Violation Points - 10=True,Violation Detail - 10=True,Violation Memo - 10=True,Violation Description - 11=True,Violation Points - 11=True,Violation Detail - 11=True,Violation Memo - 11=True,Violation Description - 12=True,Violation Points - 12=True,Violation Detail - 12=True,Violation Memo - 12=True,Violation Description - 13=True,Violation Points - 13=True,Violation Detail - 13=True,Violation Memo - 13=True,Violation Description - 14=True,Violation Points - 14=True,Violation Detail - 14=True,Violation Memo - 14=True,Violation Description - 15=True,Violation Points - 15=True,Violation Detail - 15=True,Violation Memo - 15=True,Violation Description - 16=True,Violation Points - 16=True,Violation Detail - 16=True,Violation Memo - 16=True,Violation Description - 17=True,Violation Points - 17=True,Violation Detail - 17=True,Violation Memo - 17=True,Violation Description - 18=True,Violation Points - 18=True,Violation Detail - 18=True,Violation Memo - 18=True,Violation Description - 19=True,Violation Points - 19=True,Violation Detail - 19=True,Violation Memo - 19=True,Violation Description - 20=True,Violation Points - 20=True,Violation Detail - 20=True,Violation  Memo - 20=True,Violation Description - 21=True,Violation Points - 21=True,Violation Detail - 21=True,Violation Memo - 21=True,Violation Description - 22=True,Violation Points - 22=True,Violation Detail - 22=True,Violation Memo - 22=True,Violation Description - 23=True,Violation Points - 23=True,Violation Detail - 23=True,Violation Memo - 23=True,Violation Description - 24=True,Violation Points - 24=True,Violation Detail - 24=True,Violation Memo - 24=True,Violation Description - 25=True,Violation Points - 25=True,Violation Detail - 25=True,Violation Memo - 25=True,Inspection Month=True,Inspection Year=True,Lat Long Location=True</Value>
+              <Value name="Sample Data">False</Value>
+              <Value name="Number">True</Value>
+              <Value name="NNumber">5000</Value>
+              <Value name="Percent">False</Value>
+              <Value name="NPercent">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+        </Node>
+        <Node ToolID="51">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="606" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\18575\AppData\Local\Temp\Engine_8912_1345888e921c5d46846aff99c1e06347_\Engine_8912_803d713071ab9347816b49ef4c4ba2cd~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="52">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="630" y="276" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\18575\AppData\Local\Temp\Engine_8912_1345888e921c5d46846aff99c1e06347_\Engine_8912_2d2b9f298b96a145a5faa9a568c8ff39~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="53">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="618" y="204" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\18575\AppData\Local\Temp\Engine_8912_1345888e921c5d46846aff99c1e06347_\Engine_8912_31c853c9aa0a6c499acc7e64a4a0fa3e~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="54">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="618" y="372" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\18575\AppData\Local\Temp\Engine_8912_1345888e921c5d46846aff99c1e06347_\Engine_8912_222ed85585972548abbf5fb799fdaca5~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="38" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="39" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output26" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output26" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output26" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="41" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Output" />
+      <Destination ToolID="50" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Reports" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Interactive" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Group 11 Dallas Data Prep and Data Staging</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="75f9eb73-1451-42bb-8a1b-857771274b79" />
+      <Telemetry>
+        <PreviousWorkflowId value="f6e2dffe-fe0c-446c-a209-166809cf1b50" />
+        <OriginWorkflowId value="5bb6ad31-e2da-4aa7-8606-4d0f38a3ec41" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

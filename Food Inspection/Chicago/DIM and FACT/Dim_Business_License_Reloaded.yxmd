@@ -1,0 +1,557 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File FileFormat="23" RecordLimit="">aka:damg7370_Output|||select stg_Chicago_Food_Inspection.* 
+from stg_Chicago_Food_Inspection</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:damg7370_Output
+Query=select stg_Chicago_Food_Insp...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Inspection ID" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=damg7370_Output;SERVER=localhost;Trusted_Connection=yes|||select stg_Chicago_Food_Inspection.* &#xA;from stg_Chicago_Food_Inspection" type="Int32" />
+            <Field name="DBA Name" size="79" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=damg7370_Output;SERVER=localhost;Trusted_Connection=yes|||select stg_Chicago_Food_Inspection.* &#xA;from stg_Chicago_Food_Inspection" type="V_String" />
+            <Field name="AKA Name" size="79" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=damg7370_Output;SERVER=localhost;Trusted_Connection=yes|||select stg_Chicago_Food_Inspection.* &#xA;from stg_Chicago_Food_Inspection" type="V_String" />
+            <Field name="License #" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=damg7370_Output;SERVER=localhost;Trusted_Connection=yes|||select stg_Chicago_Food_Inspection.* &#xA;from stg_Chicago_Food_Inspection" type="Int32" />
+            <Field name="Facility Type" size="47" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=damg7370_Output;SERVER=localhost;Trusted_Connection=yes|||select stg_Chicago_Food_Inspection.* &#xA;from stg_Chicago_Food_Inspection" type="V_String" />
+            <Field name="Risk" size="15" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=damg7370_Output;SERVER=localhost;Trusted_Connection=yes|||select stg_Chicago_Food_Inspection.* &#xA;from stg_Chicago_Food_Inspection" type="String" />
+            <Field name="Address" size="51" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=damg7370_Output;SERVER=localhost;Trusted_Connection=yes|||select stg_Chicago_Food_Inspection.* &#xA;from stg_Chicago_Food_Inspection" type="V_String" />
+            <Field name="City" size="20" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=damg7370_Output;SERVER=localhost;Trusted_Connection=yes|||select stg_Chicago_Food_Inspection.* &#xA;from stg_Chicago_Food_Inspection" type="V_String" />
+            <Field name="State" size="2" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=damg7370_Output;SERVER=localhost;Trusted_Connection=yes|||select stg_Chicago_Food_Inspection.* &#xA;from stg_Chicago_Food_Inspection" type="String" />
+            <Field name="Zip" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=damg7370_Output;SERVER=localhost;Trusted_Connection=yes|||select stg_Chicago_Food_Inspection.* &#xA;from stg_Chicago_Food_Inspection" type="Int32" />
+            <Field name="Inspection Date" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=damg7370_Output;SERVER=localhost;Trusted_Connection=yes|||select stg_Chicago_Food_Inspection.* &#xA;from stg_Chicago_Food_Inspection" type="String" />
+            <Field name="Inspection Type" size="41" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=damg7370_Output;SERVER=localhost;Trusted_Connection=yes|||select stg_Chicago_Food_Inspection.* &#xA;from stg_Chicago_Food_Inspection" type="V_String" />
+            <Field name="Results" size="20" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=damg7370_Output;SERVER=localhost;Trusted_Connection=yes|||select stg_Chicago_Food_Inspection.* &#xA;from stg_Chicago_Food_Inspection" type="V_String" />
+            <Field name="Latitude" size="18" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=damg7370_Output;SERVER=localhost;Trusted_Connection=yes|||select stg_Chicago_Food_Inspection.* &#xA;from stg_Chicago_Food_Inspection" type="String" />
+            <Field name="Longitude" size="18" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=damg7370_Output;SERVER=localhost;Trusted_Connection=yes|||select stg_Chicago_Food_Inspection.* &#xA;from stg_Chicago_Food_Inspection" type="String" />
+            <Field name="Location" size="40" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=damg7370_Output;SERVER=localhost;Trusted_Connection=yes|||select stg_Chicago_Food_Inspection.* &#xA;from stg_Chicago_Food_Inspection" type="String" />
+            <Field name="DI_CreateDate" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=damg7370_Output;SERVER=localhost;Trusted_Connection=yes|||select stg_Chicago_Food_Inspection.* &#xA;from stg_Chicago_Food_Inspection" type="Date" />
+            <Field name="DI_WorkflowDirectory" size="95" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=damg7370_Output;SERVER=localhost;Trusted_Connection=yes|||select stg_Chicago_Food_Inspection.* &#xA;from stg_Chicago_Food_Inspection" type="String" />
+            <Field name="DI_WorkflowFileName" size="69" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=damg7370_Output;SERVER=localhost;Trusted_Connection=yes|||select stg_Chicago_Food_Inspection.* &#xA;from stg_Chicago_Food_Inspection" type="String" />
+            <Field name="Inspection_Date" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=damg7370_Output;SERVER=localhost;Trusted_Connection=yes|||select stg_Chicago_Food_Inspection.* &#xA;from stg_Chicago_Food_Inspection" type="Date" />
+            <Field name="Violations" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=damg7370_Output;SERVER=localhost;Trusted_Connection=yes|||select stg_Chicago_Food_Inspection.* &#xA;from stg_Chicago_Food_Inspection" type="V_String" />
+            <Field name="Violation Code" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=damg7370_Output;SERVER=localhost;Trusted_Connection=yes|||select stg_Chicago_Food_Inspection.* &#xA;from stg_Chicago_Food_Inspection" type="Int32" />
+            <Field name="Violation Description" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=damg7370_Output;SERVER=localhost;Trusted_Connection=yes|||select stg_Chicago_Food_Inspection.* &#xA;from stg_Chicago_Food_Inspection" type="V_String" />
+            <Field name="Violation Comments" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=damg7370_Output;SERVER=localhost;Trusted_Connection=yes|||select stg_Chicago_Food_Inspection.* &#xA;from stg_Chicago_Food_Inspection" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File FileFormat="23" RecordLimit="">aka:Chicago_Food_Inspection|||select Dim_Chicago_BusinessLicenses.* 
+from Dim_Chicago_BusinessLicenses</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Chicago_Food_Inspection
+Query=select Dim_Chicago_BusinessL...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="LicenseSK" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago_Food_Inspection;SERVER=localhost;Trusted_Connection=yes|||select Dim_Chicago_BusinessLicenses.* &#xA;from Dim_Chicago_BusinessLicenses" type="Int32" />
+            <Field name="ID" size="16" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago_Food_Inspection;SERVER=localhost;Trusted_Connection=yes|||select Dim_Chicago_BusinessLicenses.* &#xA;from Dim_Chicago_BusinessLicenses" type="String" />
+            <Field name="LICENSE_ID" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago_Food_Inspection;SERVER=localhost;Trusted_Connection=yes|||select Dim_Chicago_BusinessLicenses.* &#xA;from Dim_Chicago_BusinessLicenses" type="Int32" />
+            <Field name="ACCOUNT_NUMBER" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago_Food_Inspection;SERVER=localhost;Trusted_Connection=yes|||select Dim_Chicago_BusinessLicenses.* &#xA;from Dim_Chicago_BusinessLicenses" type="Int32" />
+            <Field name="LEGAL_NAME" size="120" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago_Food_Inspection;SERVER=localhost;Trusted_Connection=yes|||select Dim_Chicago_BusinessLicenses.* &#xA;from Dim_Chicago_BusinessLicenses" type="V_String" />
+            <Field name="SITE_NUMBER" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago_Food_Inspection;SERVER=localhost;Trusted_Connection=yes|||select Dim_Chicago_BusinessLicenses.* &#xA;from Dim_Chicago_BusinessLicenses" type="Int32" />
+            <Field name="DOING_BUSINESS_AS_NAME" size="128" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago_Food_Inspection;SERVER=localhost;Trusted_Connection=yes|||select Dim_Chicago_BusinessLicenses.* &#xA;from Dim_Chicago_BusinessLicenses" type="V_String" />
+            <Field name="ADDRESS" size="80" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago_Food_Inspection;SERVER=localhost;Trusted_Connection=yes|||select Dim_Chicago_BusinessLicenses.* &#xA;from Dim_Chicago_BusinessLicenses" type="V_String" />
+            <Field name="CITY" size="30" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago_Food_Inspection;SERVER=localhost;Trusted_Connection=yes|||select Dim_Chicago_BusinessLicenses.* &#xA;from Dim_Chicago_BusinessLicenses" type="V_String" />
+            <Field name="STATE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago_Food_Inspection;SERVER=localhost;Trusted_Connection=yes|||select Dim_Chicago_BusinessLicenses.* &#xA;from Dim_Chicago_BusinessLicenses" type="String" />
+            <Field name="ZIP_CODE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago_Food_Inspection;SERVER=localhost;Trusted_Connection=yes|||select Dim_Chicago_BusinessLicenses.* &#xA;from Dim_Chicago_BusinessLicenses" type="String" />
+            <Field name="WARD" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago_Food_Inspection;SERVER=localhost;Trusted_Connection=yes|||select Dim_Chicago_BusinessLicenses.* &#xA;from Dim_Chicago_BusinessLicenses" type="Int32" />
+            <Field name="PRECINCT" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago_Food_Inspection;SERVER=localhost;Trusted_Connection=yes|||select Dim_Chicago_BusinessLicenses.* &#xA;from Dim_Chicago_BusinessLicenses" type="Int32" />
+            <Field name="WARD_PRECINCT" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago_Food_Inspection;SERVER=localhost;Trusted_Connection=yes|||select Dim_Chicago_BusinessLicenses.* &#xA;from Dim_Chicago_BusinessLicenses" type="String" />
+            <Field name="POLICE_DISTRICT" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago_Food_Inspection;SERVER=localhost;Trusted_Connection=yes|||select Dim_Chicago_BusinessLicenses.* &#xA;from Dim_Chicago_BusinessLicenses" type="Int32" />
+            <Field name="LICENSE_CODE" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago_Food_Inspection;SERVER=localhost;Trusted_Connection=yes|||select Dim_Chicago_BusinessLicenses.* &#xA;from Dim_Chicago_BusinessLicenses" type="Int32" />
+            <Field name="LICENSE_DESCRIPTION" size="60" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago_Food_Inspection;SERVER=localhost;Trusted_Connection=yes|||select Dim_Chicago_BusinessLicenses.* &#xA;from Dim_Chicago_BusinessLicenses" type="V_String" />
+            <Field name="BUSINESS_ACTIVITY_ID" size="81" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago_Food_Inspection;SERVER=localhost;Trusted_Connection=yes|||select Dim_Chicago_BusinessLicenses.* &#xA;from Dim_Chicago_BusinessLicenses" type="V_String" />
+            <Field name="BUSINESS_ACTIVITY" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago_Food_Inspection;SERVER=localhost;Trusted_Connection=yes|||select Dim_Chicago_BusinessLicenses.* &#xA;from Dim_Chicago_BusinessLicenses" type="V_String" />
+            <Field name="APPLICATION_TYPE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago_Food_Inspection;SERVER=localhost;Trusted_Connection=yes|||select Dim_Chicago_BusinessLicenses.* &#xA;from Dim_Chicago_BusinessLicenses" type="String" />
+            <Field name="LICENSE_NUMBER" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago_Food_Inspection;SERVER=localhost;Trusted_Connection=yes|||select Dim_Chicago_BusinessLicenses.* &#xA;from Dim_Chicago_BusinessLicenses" type="Int32" />
+            <Field name="APPLICATION_CREATED_DATE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago_Food_Inspection;SERVER=localhost;Trusted_Connection=yes|||select Dim_Chicago_BusinessLicenses.* &#xA;from Dim_Chicago_BusinessLicenses" type="V_String" />
+            <Field name="APPLICATION_REQUIREMENTS_COMPLETE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago_Food_Inspection;SERVER=localhost;Trusted_Connection=yes|||select Dim_Chicago_BusinessLicenses.* &#xA;from Dim_Chicago_BusinessLicenses" type="String" />
+            <Field name="PAYMENT_DATE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago_Food_Inspection;SERVER=localhost;Trusted_Connection=yes|||select Dim_Chicago_BusinessLicenses.* &#xA;from Dim_Chicago_BusinessLicenses" type="String" />
+            <Field name="CONDITIONAL_APPROVAL" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago_Food_Inspection;SERVER=localhost;Trusted_Connection=yes|||select Dim_Chicago_BusinessLicenses.* &#xA;from Dim_Chicago_BusinessLicenses" type="String" />
+            <Field name="LICENSE_TERM_START_DATE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago_Food_Inspection;SERVER=localhost;Trusted_Connection=yes|||select Dim_Chicago_BusinessLicenses.* &#xA;from Dim_Chicago_BusinessLicenses" type="String" />
+            <Field name="LICENSE_TERM_EXPIRATION_DATE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago_Food_Inspection;SERVER=localhost;Trusted_Connection=yes|||select Dim_Chicago_BusinessLicenses.* &#xA;from Dim_Chicago_BusinessLicenses" type="String" />
+            <Field name="LICENSE_APPROVED_FOR_ISSUANCE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago_Food_Inspection;SERVER=localhost;Trusted_Connection=yes|||select Dim_Chicago_BusinessLicenses.* &#xA;from Dim_Chicago_BusinessLicenses" type="String" />
+            <Field name="DATE_ISSUED" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago_Food_Inspection;SERVER=localhost;Trusted_Connection=yes|||select Dim_Chicago_BusinessLicenses.* &#xA;from Dim_Chicago_BusinessLicenses" type="String" />
+            <Field name="LICENSE_STATUS" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago_Food_Inspection;SERVER=localhost;Trusted_Connection=yes|||select Dim_Chicago_BusinessLicenses.* &#xA;from Dim_Chicago_BusinessLicenses" type="String" />
+            <Field name="LICENSE_STATUS_CHANGE_DATE" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago_Food_Inspection;SERVER=localhost;Trusted_Connection=yes|||select Dim_Chicago_BusinessLicenses.* &#xA;from Dim_Chicago_BusinessLicenses" type="V_String" />
+            <Field name="SSA" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago_Food_Inspection;SERVER=localhost;Trusted_Connection=yes|||select Dim_Chicago_BusinessLicenses.* &#xA;from Dim_Chicago_BusinessLicenses" type="Int32" />
+            <Field name="LATITUDE" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago_Food_Inspection;SERVER=localhost;Trusted_Connection=yes|||select Dim_Chicago_BusinessLicenses.* &#xA;from Dim_Chicago_BusinessLicenses" type="Double" />
+            <Field name="LONGITUDE" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago_Food_Inspection;SERVER=localhost;Trusted_Connection=yes|||select Dim_Chicago_BusinessLicenses.* &#xA;from Dim_Chicago_BusinessLicenses" type="Double" />
+            <Field name="LOCATION" size="40" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago_Food_Inspection;SERVER=localhost;Trusted_Connection=yes|||select Dim_Chicago_BusinessLicenses.* &#xA;from Dim_Chicago_BusinessLicenses" type="String" />
+            <Field name="DI_CreateDate" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago_Food_Inspection;SERVER=localhost;Trusted_Connection=yes|||select Dim_Chicago_BusinessLicenses.* &#xA;from Dim_Chicago_BusinessLicenses" type="DateTime" />
+            <Field name="DI_WorkflowDirectory" size="256" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago_Food_Inspection;SERVER=localhost;Trusted_Connection=yes|||select Dim_Chicago_BusinessLicenses.* &#xA;from Dim_Chicago_BusinessLicenses" type="V_WString" />
+            <Field name="DI_WorkflowFileName" size="256" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};DATABASE=Chicago_Food_Inspection;SERVER=localhost;Trusted_Connection=yes|||select Dim_Chicago_BusinessLicenses.* &#xA;from Dim_Chicago_BusinessLicenses" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="258" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="License #" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="LICENSE_NUMBER" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_DBA Name" selected="True" input="Left_" />
+                <SelectField field="Left_AKA Name" selected="True" input="Left_" />
+                <SelectField field="Left_License #" selected="True" input="Left_" />
+                <SelectField field="Left_Address" selected="True" input="Left_" />
+                <SelectField field="Left_City" selected="True" input="Left_" />
+                <SelectField field="Left_State" selected="True" input="Left_" />
+                <SelectField field="Left_Zip" selected="True" input="Left_" />
+                <SelectField field="Left_Latitude" selected="True" input="Left_" />
+                <SelectField field="Left_Longitude" selected="True" input="Left_" />
+                <SelectField field="Left_Location" selected="True" input="Left_" />
+                <SelectField field="Right_LicenseSK" selected="True" input="Right_" />
+                <SelectField field="Right_ID" selected="True" input="Right_" />
+                <SelectField field="Right_LICENSE_ID" selected="True" input="Right_" />
+                <SelectField field="Right_ADDRESS" selected="False" rename="Right_ADDRESS" input="Right_" />
+                <SelectField field="Right_CITY" selected="False" rename="Right_CITY" input="Right_" />
+                <SelectField field="Right_STATE" selected="False" rename="Right_STATE" input="Right_" />
+                <SelectField field="Right_LATITUDE" selected="False" rename="Right_LATITUDE" input="Right_" />
+                <SelectField field="Right_LONGITUDE" selected="False" rename="Right_LONGITUDE" input="Right_" />
+                <SelectField field="Right_LOCATION" selected="False" rename="Right_LOCATION" input="Right_" />
+                <SelectField field="Right_DI_CreateDate" selected="False" rename="Right_DI_CreateDate" input="Right_" />
+                <SelectField field="Right_DI_WorkflowDirectory" selected="False" rename="Right_DI_WorkflowDirectory" input="Right_" />
+                <SelectField field="Right_DI_WorkflowFileName" selected="False" rename="Right_DI_WorkflowFileName" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="282" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\drist\AppData\Local\Temp\Engine_13280_1c1fcac63c08d6499602041a1e826d2b_\Engine_13280_59082d39e000104c8d87bca88ae9c06d~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="174" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="License #" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="402" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="DBA Name" selected="True" />
+            <SelectField field="AKA Name" selected="True" />
+            <SelectField field="License #" selected="True" />
+            <SelectField field="Address" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="State" selected="True" />
+            <SelectField field="Zip" selected="True" type="String" size="16384" />
+            <SelectField field="Latitude" selected="True" />
+            <SelectField field="Longitude" selected="True" />
+            <SelectField field="Location" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="570" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="-9999" field="LICENSE_ID" size="4" type="Int32" />
+            <FormulaField expression="If IsNull([City]) THEN 'Unknown' ELSE [City] ENDIF" field="City" size="20" type="V_String" />
+            <FormulaField expression="If IsNull([State]) THEN 'Unknown' ELSE [State] ENDIF" field="State" size="2" type="String" />
+            <FormulaField expression="If IsNull([Zip]) THEN 'Unknown' ELSE [Zip] ENDIF" field="Zip" size="16384" type="String" />
+            <FormulaField expression="-9999" field="WARD" size="4" type="Int32" />
+            <FormulaField expression="-9999" field="PRECINCT" size="4" type="Int32" />
+            <FormulaField expression="'Unknown'" field="WARD PRECINCT" size="10" type="V_String" />
+            <FormulaField expression="-9999" field="POLICE DISTRICT" size="4" type="Int32" />
+            <FormulaField expression="'Unknown'" field="BUSINESS ACTIVITY ID" size="81" type="V_String" />
+            <FormulaField expression="'Unknown'" field="BUSINESS ACTIVITY" size="65535" type="V_String" />
+            <FormulaField expression="'01/01/9999'" field="APPLICATION REQUIREMENTS COMPLETE" size="10" type="String" />
+            <FormulaField expression="'01/01/9999'" field="PAYMENT DATE" size="10" type="String" />
+            <FormulaField expression="'01/01/9999'" field="LICENSE TERM START DATE" size="10" type="String" />
+            <FormulaField expression="'01/01/9999'" field="LICENSE TERM EXPIRATION DATE" size="10" type="String" />
+            <FormulaField expression="'01/01/9999'" field="LICENSE APPROVED FOR ISSUANCE" size="10" type="String" />
+            <FormulaField expression="'01/01/9999'" field="LICENSE STATUS CHANGE DATE" size="10" type="V_String" />
+            <FormulaField expression="-9999" field="SSA" size="4" type="Int32" />
+            <FormulaField expression="If IsNull([Latitude]) THEN 0 ELSE [Latitude] ENDIF" field="Latitude" size="18" type="String" />
+            <FormulaField expression="If IsNull([Longitude]) THEN 0 ELSE [Longitude] ENDIF" field="Longitude" size="18" type="String" />
+            <FormulaField expression="If IsNull([Location]) THEN '(0,0)' ELSE [Location] ENDIF" field="Location" size="40" type="String" />
+            <FormulaField expression="'01/01/9999'" field="APPLICATION CREATED DATE" size="10" type="V_String" />
+            <FormulaField expression="-9999" field="ACCOUNT_NUMBER" size="4" type="Int32" />
+            <FormulaField expression="If IsNull([DBA Name]) THEN 'Unkown' ELSE [DBA Name] ENDIF" field="DBA Name" size="79" type="V_String" />
+            <FormulaField expression="-9999" field="SITE_NUMBER" size="4" type="Int32" />
+            <FormulaField expression="If IsNull([AKA Name]) THEN 'Unknown' ELSE [AKA Name] ENDIF" field="AKA Name" size="79" type="V_String" />
+            <FormulaField expression="If IsNull([Address]) THEN 'Unknown' ELSE [Address] ENDIF" field="Address" size="51" type="V_String" />
+            <FormulaField expression="-9999" field="LICENSE_CODE" size="4" type="Int32" />
+            <FormulaField expression="'Unknown'" field="LICENSE_DESCRIPTION" size="60" type="V_String" />
+            <FormulaField expression="'NA'" field="APPLICATION_TYPE" size="2147483647" type="V_String" />
+            <FormulaField expression="'N'" field="CONDITIONAL_APPROVAL" size="1" type="V_String" />
+            <FormulaField expression="'01/01/9999'" field="DATE_ISSUED" size="10" type="V_String" />
+            <FormulaField expression="'Unknown'" field="ID" size="16" type="V_String" />
+            <FormulaField expression="'N/A'" field="LICENSE_STATUS" size="3" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>LICENSE_ID = -9999
+City = If IsNull([City]) THEN 'Unknown' ELSE [City] ENDIF
+Sta...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="678" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>LicenseSK</FieldName>
+          <StartValue>-5000</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="318" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\drist\AppData\Local\Temp\Engine_13280_1c1fcac63c08d6499602041a1e826d2b_\Engine_13280_324d1b6d59d92d4e940db735f66f6a3f~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\drist\AppData\Local\Temp\Engine_13280_1c1fcac63c08d6499602041a1e826d2b_\Engine_13280_bee3e5cc534ad24e8a575675ba4c37ff~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="810" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:Chicago_Food_Inspection|||Dim_Chicago_BusinessLicenses</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Upsert</OutputOption>
+            <AppendMap>
+              <AppendMapping mode="Custom">
+                <Field Source="LicenseSK" Dest="LicenseSK" />
+                <Field Source="DBA Name" Dest="LEGAL_NAME" />
+                <Field Source="AKA Name" Dest="DOING_BUSINESS_AS_NAME" />
+                <Field Source="License #" Dest="LICENSE_NUMBER" />
+                <Field Source="Address" Dest="ADDRESS" />
+                <Field Source="City" Dest="CITY" />
+                <Field Source="State" Dest="STATE" />
+                <Field Source="Zip" Dest="ZIP_CODE" />
+                <Field Source="Latitude" Dest="LATITUDE" />
+                <Field Source="Longitude" Dest="LONGITUDE" />
+                <Field Source="Location" Dest="LOCATION" />
+                <Field Source="LICENSE_ID" Dest="LICENSE_ID" />
+                <Field Source="WARD" Dest="WARD" />
+                <Field Source="PRECINCT" Dest="PRECINCT" />
+                <Field Source="WARD PRECINCT" Dest="WARD_PRECINCT" />
+                <Field Source="POLICE DISTRICT" Dest="POLICE_DISTRICT" />
+                <Field Source="BUSINESS ACTIVITY ID" Dest="BUSINESS_ACTIVITY_ID" />
+                <Field Source="BUSINESS ACTIVITY" Dest="BUSINESS_ACTIVITY" />
+                <Field Source="APPLICATION REQUIREMENTS COMPLETE" Dest="APPLICATION_REQUIREMENTS_COMPLETE" />
+                <Field Source="PAYMENT DATE" Dest="PAYMENT_DATE" />
+                <Field Source="LICENSE TERM START DATE" Dest="LICENSE_TERM_START_DATE" />
+                <Field Source="LICENSE TERM EXPIRATION DATE" Dest="LICENSE_TERM_EXPIRATION_DATE" />
+                <Field Source="LICENSE APPROVED FOR ISSUANCE" Dest="LICENSE_APPROVED_FOR_ISSUANCE" />
+                <Field Source="LICENSE STATUS CHANGE DATE" Dest="LICENSE_STATUS_CHANGE_DATE" />
+                <Field Source="SSA" Dest="SSA" />
+                <Field Source="APPLICATION CREATED DATE" Dest="APPLICATION_CREATED_DATE" />
+                <Field Source="ACCOUNT_NUMBER" Dest="ACCOUNT_NUMBER" />
+                <Field Source="SITE_NUMBER" Dest="SITE_NUMBER" />
+                <Field Source="LICENSE_CODE" Dest="LICENSE_CODE" />
+                <Field Source="LICENSE_DESCRIPTION" Dest="LICENSE_DESCRIPTION" />
+                <Field Source="APPLICATION_TYPE" Dest="APPLICATION_TYPE" />
+                <Field Source="CONDITIONAL_APPROVAL" Dest="CONDITIONAL_APPROVAL" />
+                <Field Source="DATE_ISSUED" Dest="DATE_ISSUED" />
+                <Field Source="ID" Dest="ID" />
+                <Field Source="LICENSE_STATUS" Dest="LICENSE_STATUS" />
+              </AppendMapping>
+            </AppendMap>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Chicago_Food_Inspection
+Query=Dim_Chicago_BusinessLicenses</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Unique" />
+      <Destination ToolID="4" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Right" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Left" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Left" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Join" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Dim_Business_License_Reloaded</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="9cb0b716-6277-45e9-9e86-ffd5cc14388b" />
+      <Telemetry>
+        <PreviousWorkflowId value="39128fbe-fc66-4a62-9c12-79aea1bc64d7" />
+        <OriginWorkflowId value="39128fbe-fc66-4a62-9c12-79aea1bc64d7" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
